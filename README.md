@@ -8,6 +8,6 @@ This code generates the models in Figures 2a, 2b, and 2c.  Required inputs: seed
 
 ## EMCompDet.R
 
-This code generates the models, and visualizations, in Figures 2a' and 2b'.  All parameters are hard coded, and all behaviors we examined are commented out.  
+This code generates the models, and visualizations, in Figures 2a', 2b', and 2c'.  All parameters are hard coded, and all behaviors we examined are commented out.  
 
 
