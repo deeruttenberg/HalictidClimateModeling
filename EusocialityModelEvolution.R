@@ -291,13 +291,13 @@ Perturb <- function(F1, SM, FM, SH, FH, Percentage){
 }
 
 #Set Variables
-Reps = as.numeric(args[1])
+Reps = as.numeric(args[1]) #In Our paper we use seeds 1-50
 set.seed(Reps)
-b = 0.1 #Increase In Summer Growth Rate from Helpers
-BirthRate = 0.05
+b =  as.numeric(args[2]) #Increase In Summer Growth Rate from Helpers (Usually = 0.1, in Supp Figure 2 b=0)
+BirthRate =  as.numeric(args[3]) #Basal Birth Rate (Usually = 0.05, in Supp Figure 2 BirthRate=0.3)
 Sf = 0.1 #Proportion of Foundresses that Die before end of summer
 Sm = 0.4 #Mort Rate of Males
-DIY <- as.numeric(args[2]) #Length from diapause > diapause
+DIY <- as.numeric(args[4]) #Length from diapause > diapause (In Figure 2a DIY=120, in Figure 2b, Supp Figure 2, Supp Figure 3 DIY=180, in Figure 2c DIY=135, in Supp Figure 1 DIY=150)
 Sfe = Sf / 180 #Per Day Mort Rate
 Sme = Sm / 180 #Per Day Mort Rate
 mu = 0.05 #Mut Rate Per Allele Per Generation
@@ -305,7 +305,7 @@ sdmu = 0.05 #St. Dev. of Mutation Size
 sdmu2 = 0.0005
 Max = 1000 #MaximumNumberInABrood
 N = 50; #Nests
-RepAge <- 27
+RepAge <- as.numeric(args[4]) #Time for males, females, and reproductive to mature.  Usually = 27, in Supp Figure 3 RepAge = 67)
 TimeToNest <- 10
 NumGen = 2000 #Number Gens
 Lag = 0 #Time before helper starts evolving
