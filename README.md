@@ -12,7 +12,7 @@ This code can be modified to generate Figures 3 and Supp Figures 4-6.  The param
 
 ## EMCompDet.R
 
-This code generates the models, and visualizations, in Figures 2a', 2b', and 2c'.  All parameters are hard coded, and all behaviors we examined are commented out.  
+This code generates the models, and visualizations, in Figures 2a', 2b', and 2c'.  All parameters are hard coded, and all suites of parameters we examined are commented out.  
 
 ## PlotClimateData.R and BritishDataAnalysis.R
 
