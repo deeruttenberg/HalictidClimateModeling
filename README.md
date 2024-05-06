@@ -4,11 +4,11 @@ Attached is code used to generate the models for Ruttenberg et. al. 2024.  If yo
 
 ## EusocialityModelEvolution.R
 
-This code can be modified to generate Figures 2 and Supp Figures 1-3.  The parameters which vary between the figures are described in the comments. 
+This code can be modified to generate Figures 2 and Supp Figures 1-4.  The parameters which vary between the figures are described in the comments. 
 
 ## EusocialityModelCompetition.R
 
-This code can be modified to generate Figures 3 and Supp Figures 4-6.  The parameters which vary between the figures are described in the comments. 
+This code can be modified to generate Figures 3 and Supp Figures 5-7.  The parameters which vary between the figures are described in the comments. 
 
 ## EMCompDet.R
 
