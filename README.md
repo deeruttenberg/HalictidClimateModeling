@@ -16,5 +16,5 @@ This code generates the models, and visualizations, in Figures 2a', 2b', and 2c'
 
 ## PlotClimateData.R and BritishDataAnalysis.R
 
-This code analyzes the weater data for Figure 4a and 4b respectively.
+This code analyzes the weater data for Figure 4a and 4b respectively, using the raw data ColoradoRawData.csv and UnitedKingdomRawData.csv respectively.
 
