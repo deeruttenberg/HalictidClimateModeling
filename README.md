@@ -1,4 +1,4 @@
-# HalictidClimateModeling
+# What is This?
 
 Attached is code used to generate the models for Ruttenberg et. al. 2024.  If you would like the code we used to visualize the results, please email dmr4@princeton.edu
 
